@@ -1,0 +1,56 @@
+.dbutton{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ background-color: rgb(231, 97, 97);
+  position:relative;
+  text-align: center;
+ width: 20px;
+ height: 10px;
+ background: none;
+ border: 0ch;
+
+
+ 
+ margin-left: 0%;
+ 
+
+}
+.dropdown{
+position: relative;
+display: inline-block;
+margin-top: 20px;
+margin-left: 13px;
+
+text-transform: capitalize;
+width: 100%;
+
+  
+  
+}
+.dropcontent{
+
+  position:fixed;
+  display: none;
+  z-index: 1;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  top: 400px;
+  font-size: x-small;
+  width: 30%;
+  
+  
+}
+.dropcontent a{
+  
+  text-decoration: none;
+  display: block;
+  color: rgb(244, 244, 245);
+}
+.dropcontent a:hover {
+  background-color: rgb(87, 87, 87);
+  width:15%;
+  /*padding:0%;*/
+ 
+}
+.dropdown:hover .dropcontent {
+  display:contents;
+ 
+}
